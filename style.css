@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Roboto+Slab:wght@100..900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    font-family: "Wittgenstein", serif;
+}
+
+.main-box{
+    background-color: #fff;
+    width: 130vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius: 2rem;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-around;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+    padding-top: 8rem;
+    
+}
+
+h3{
+    font-size: 3.5rem;
+    color: white;
+    padding-bottom: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.same{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.size{
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+}

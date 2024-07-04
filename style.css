@@ -99,6 +99,7 @@ select  ,input{
     outline: none;
     padding-left: 5px;
     font-size: 1.3rem;
+    font-weight: 500;
 }
 
 /* box 2 style */
@@ -156,3 +157,8 @@ button{
     font-size: 1rem;
     padding-bottom: 15px;
 }
+
+select option{
+    font-weight: 400;
+}
+

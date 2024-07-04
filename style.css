@@ -76,6 +76,7 @@ h3{
     justify-content: space-between;
     padding: 5px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .con-logo{
@@ -148,7 +149,11 @@ button{
     color: white;
     border-radius: 10px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 550;
+}
+
+button:hover{
+    opacity: 85%;   
 }
 
 /* footer */
@@ -162,3 +167,6 @@ select option{
     font-weight: 400;
 }
 
+.footerp{
+    color: white;
+}

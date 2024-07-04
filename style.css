@@ -15,8 +15,7 @@ body{
     background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     font-family: "Wittgenstein", serif;
-    opacity: 87%;
-    
+    opacity: 87%;   
 }
 
 .main-box{
@@ -28,8 +27,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-    margin-bottom: 200px;
-    
+    margin-bottom: 200px;   
 }
 
 /* header title*/
@@ -38,8 +36,7 @@ h3{
     font-size: 3.5rem;
     color: white;
     letter-spacing: 3px;
-   margin-top: 135px;
-
+    margin-top: 135px;
 }
 
 /*box 1 style*/
@@ -50,9 +47,7 @@ h3{
     gap: 1rem;
     justify-content: space-evenly;
     width: 100vh;
-    height: 20vh;
-    
-    
+    height: 20vh   
 }
 
 .same{
@@ -90,7 +85,6 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 select  ,input{
@@ -111,8 +105,7 @@ select  ,input{
     gap: 15rem;
     align-items: center;
     width: 100vh;
-    height: 15vh;
-    
+    height: 15vh;   
 }
 
 .fmsg{

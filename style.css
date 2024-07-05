@@ -166,7 +166,7 @@ select option{
 
 
 
-@media (max-width: 450px){
+@media (max-width: 500px){
     body{
         display: flex;
         align-items: center;
@@ -236,5 +236,23 @@ select option{
         height: 20px; 
         margin-top: 300px;  
         width: 40vh;
+    }
+}
+
+@media (max-width: 500px){
+    .main-box{
+       
+        width: 320px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 585px;
+    }
+
+    .box2{
+        margin-top: 340px;
+    }
+
+    h3{
+        font-size: 20px;
     }
 }

@@ -164,3 +164,77 @@ select option{
     color: white;
 }
 
+
+
+@media (max-width: 450px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        font-family: "Wittgenstein", serif;
+        opacity: 87%;
+        width: 100%;
+        height: 100%;
+           
+    }
+    
+    .main-box{
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 600px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        border-radius: 19px;
+        padding-top: 10px
+    }
+
+    .box1{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40vh;
+        height: 20vh   
+    }
+
+    h3{
+        margin-top: 0%;
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .amount{
+        padding-right: 0px;
+    }
+
+    .size{
+        width: 17rem;
+        height: 2.5rem;        
+        
+    }
+
+    .con-logo{    
+        font-size: 2rem;
+        width: 35px;
+        height: 40px;
+        
+    }
+
+    .box2{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        flex-direction: column;
+        /* width: 100px; */
+        height: 20px; 
+        margin-top: 300px;  
+        width: 40vh;
+    }
+}

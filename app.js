@@ -1,5 +1,6 @@
 // main urlof of an api
 
+
 const API_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies"
 
 // all querySelectors
@@ -85,9 +86,11 @@ butt.addEventListener("click", async (evt) => {
     let finalamount2 = amountVal * fromRate2;
 
     message_1.innerText = `${amountVal} ${fromcurrency.value} = `;
-    message_2.innerText = `${finalamount}  ${tocurrency.value}`;
-    message_3.innerText = `${amountVal} ${tocurrency.value} = ${finalamount2} ${fromcurrency.value}`;
+    message_2.innerText = `${finalamount.toFixed(4)}  ${tocurrency.value}`;
+    message_3.innerText = `${amountVal} ${tocurrency.value} = ${finalamount2.toFixed(4)} ${fromcurrency.value}`;
 
 })
 
-
+document.addEventListener("DOMContentLoaded", () => {
+    butt.click();
+});
